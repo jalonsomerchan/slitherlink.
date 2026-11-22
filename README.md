@@ -19,4 +19,4 @@ Abre <http://localhost:8000>. Es necesario servir los archivos por HTTP; abrir `
 
 El navegador ofrece la instalación cuando cumple sus requisitos. En iPhone y iPad, abre el juego en Safari y usa **Compartir → Añadir a pantalla de inicio**. Tras la primera visita y la instalación de los recursos, se puede jugar sin conexión. El progreso permanece en el navegador y dispositivo en el que se completa cada nivel.
 
-Los niveles se definen en `levels.json`: cada entrada tiene un `id` único, `name`, `size` y una matriz cuadrada `clues`; usa `null` para las casillas sin pista. Añade los niveles al final para conservar el orden de desbloqueo y los identificadores existentes.
+Los niveles se definen en `levels.json`: cada entrada tiene un `id` único, `name`, `size` y una matriz cuadrada `clues`; usa `null` para las casillas sin pista. Para que funcionen las pistas, añade `solution` con los lados del bucle: `h-fila-columna` para lados horizontales y `v-fila-columna` para verticales, con índices desde cero. Añade los niveles al final para conservar el orden de desbloqueo y los identificadores existentes.
