@@ -1,6 +1,6 @@
 # Slitherlink
 
-Juego de lógica instalable, con 300 niveles y progreso guardado en el navegador.
+Juego de lógica instalable, con 900 niveles y progreso guardado en el navegador.
 
 ## Ejecutar en local
 
